@@ -1,0 +1,116 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "EASendMail/7.7.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/EASendMail.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/EASendMail.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EASendMail/7.7.1.1": {
+      "sha512": "olYxxFDRAwDrP62Z13OzO3hxlYp3l36mlbT6pGpmuu8+efExVF/3+rAN9vsyNeNtXG8LH7nt1KM4+Im1FjXlQQ==",
+      "type": "package",
+      "path": "easendmail/7.7.1.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "easendmail.7.7.1.1.nupkg.sha512",
+        "easendmail.nuspec",
+        "lib/net11/EASendMail.dll",
+        "lib/net20-cf/EASendMail.dll",
+        "lib/net20/EASendMail.dll",
+        "lib/net35-cf/EASendMail.dll",
+        "lib/net35/EASendMail.dll",
+        "lib/net40/EASendMail.dll",
+        "lib/net45/EASendMail.dll",
+        "lib/net461/EASendMail.dll",
+        "lib/net5.0/EASendMail.deps.json",
+        "lib/net5.0/EASendMail.dll",
+        "lib/netcoreapp2.1/EASendMail.deps.json",
+        "lib/netcoreapp2.1/EASendMail.dll",
+        "lib/netstandard2.0/EASendMail.deps.json",
+        "lib/netstandard2.0/EASendMail.dll",
+        "lib/portable-win81+wpa81/EASendMail.winmd",
+        "lib/uap10.0/EASendMail.winmd",
+        "tools/init.ps1",
+        "tools/installed.dat"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "EASendMail >= 7.7.1.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ADMIN\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\C#\\VerifyEmail\\VerifyEmail\\VerifyEmail\\VerifyEmail.csproj",
+      "projectName": "VerifyEmail",
+      "projectPath": "D:\\C#\\VerifyEmail\\VerifyEmail\\VerifyEmail\\VerifyEmail.csproj",
+      "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+      "outputPath": "D:\\C#\\VerifyEmail\\VerifyEmail\\VerifyEmail\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "dependencies": {
+          "EASendMail": {
+            "target": "Package",
+            "version": "[7.7.1.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

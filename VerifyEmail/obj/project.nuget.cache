@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "OaB8tjyfHw4MQpNvbD+Xo+N6lzbzSKd+sRKzbDuVlFyi01c9Lmy82BE4YPw69JiyZPWdKf6ALMOeB3qQjHP9gQ==",
+  "success": true,
+  "projectFilePath": "D:\\C#\\VerifyEmail\\VerifyEmail\\VerifyEmail\\VerifyEmail.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ADMIN\\.nuget\\packages\\easendmail\\7.7.1.1\\easendmail.7.7.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}
